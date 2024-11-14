@@ -1,151 +1,1450 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
 <head>
-<title>Sara &amp; Robert</title>
-<meta charset="utf-8">
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slider.css">
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tms-0.4.1.js"></script>
-<script>
-$(window).load(function () {
-    $('.slider')._TMS({
-        show: 0,
-        pauseOnHover: false,
-        prevBu: '.prev',
-        nextBu: '.next',
-        playBu: false,
-        duration: 800,
-        preset: 'fade',
-        pagination: true, //'.pagination',true,'<ul></ul>'
-        pagNums: false,
-        slideshow: 8000,
-        numStatus: false,
-        banners: false,
-        waitBannerAnimation: false,
-        progressBar: false
-    })
-});
-</script>
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible"
+		  content="IE=edge">
+	<title>Wedding &mdash; Arizal &amp; Sabilla</title>
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1">
+	<meta name="description"
+		  content="Wedding Arizal & Sabila" />
+	<meta name="keywords"
+		  content="zonemiracle, wedding, pernikahan" />
+	<meta name="author"
+		  content="zonemiracle" />
+
+	<meta property="og:title"
+		  content="" />
+	<meta property="og:image"
+		  content="" />
+	<meta property="og:url"
+		  content="" />
+	<meta property="og:site_name"
+		  content="" />
+	<meta property="og:description"
+		  content="" />
+	<meta name="twitter:title"
+		  content="" />
+	<meta name="twitter:image"
+		  content="" />
+	<meta name="twitter:url"
+		  content="" />
+	<meta name="twitter:card"
+		  content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Poppins'
+		  rel='stylesheet'
+		  type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Risque"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Play"
+		  rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet"
+		  href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet"
+		  href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet"
+	href="css/bootstrap.css">
+	
+	<!-- Magnific Popup -->
+	<link rel="stylesheet"
+		  href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet"
+		  href="css/owl.carousel.min.css">
+	<link rel="stylesheet"
+		  href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet"
+		  href="css/style.css">
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/particles.js-master/particles.js"></script>
+	<script src="js/particles.js-master/demo/js/lib/stats.js"></script>
+	<!-- <script src="js/particles.js-master/demo/js/app.js"></script> -->
+	<script src="https://kit.fontawesome.com/2bd1212873.js"
+			crossorigin="anonymous"></script>
+	<!-- Modernizr JS -->
+	
+	<script>
+		var count_particles, stats, update;
+		stats = new Stats;
+		stats.setMode(0);
+		stats.domElement.style.position = 'absolute';
+		stats.domElement.style.left = '0px';
+		stats.domElement.style.top = '0px';
+		document.body.appendChild(stats.domElement);
+		count_particles = document.querySelector('.js-count-particles');
+		update = function() {
+		  stats.begin();
+		  stats.end();
+		  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+			count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+		  }
+		  requestAnimationFrame(update);
+		};
+		requestAnimationFrame(update);
+	  </script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif] -->
+
 </head>
-<body  class="page1">
-<header>
-  <div class="container_12">
-    <div class="grid_12">
-      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
-      <div class="menu_block">
-        <nav>
-          <ul class="sf-menu">
-            <li class="current"><a href="index.html">Home</a></li>
-            <li class="with_ul"><a href="about-us.html">About Us</a>
-              <ul>
-                <li><a href="#">Presentation</a></li>
-                <li><a href="#">Calendar</a></li>
-              </ul>
-            </li>
-            <li><a href="weddings.html">Weddings</a></li>
-            <li><a href="photo-album.html">Photo Album</a></li>
-            <li><a href="your-wishes.html">Your Wishes</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-          </ul>
-        </nav>
-        <div class="clear"></div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-</header>
-<div class="top_block">
-  <div class="slider-relative">
-    <div class="slider-block">
-      <div class="slider">
-        <ul class="items">
-          <li><img src="images/slide.jpg" alt=""></li>
-          <li><img src="images/slide1.jpg" alt=""></li>
-          <li><img src="images/slide2.jpg" alt=""></li>
-          <li><img src="images/slide3.jpg" alt=""></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="content page1">
-  <div class="container_12">
-    <div class="grid_10">
-      <h2>Welcome to Our Wedding</h2>
-      <img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
-      <div class="extra_wrapper style1">
-        <p><a href="#">Click here</a> for more info about this free website template created by TemplateMonster.com </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipet isyuing elit. Sed nec placerat turpis nec rutrumi est. Maecenas toro aliquet tristique tellus. Cras gravida nibh ac neque hendrerit into consequat lectusy elementumol. Sed condimetntum urna sit amet metus dignissim vel varius nunc viverratr.</p>
-        <p>Cum sociis natoque penatibus et magnisylotin distolo parturytient montes nascetur ridiculy syloto. Cras gravida nibh ac neque hendrerit into consequat lectus elementumol. Sed condimet ntumerty urna sit amet metus dignissim vel varius nunc viverratr. Maetyocenas velit magna convallis.</p>
-        <a href="#" class="btn">More</a> </div>
-    </div>
-    <div class="grid_12">
-      <div class="banners">
-        <div class="maxheight">
-          <h2>Wedding Location</h2>
-          <p><a href="#">Cras gravida nibh ac neque hendrerityno intortiolot consequat lectus elementumol. </a></p>
-          <p>Sed condimytui etorem ipsum dolor sitrol ametyre consectetur adipet tymolotymon wertunio wercinaloisyuing elit. Ted nectro placerat turpis nec rutrumit est. Maecholi enas toro aliquet tristique tellus.</p>
-        </div>
-        <div class="maxheight">
-          <h2>Gift Registry</h2>
-          <p><a href="#">Yoliras gravida nibh ac neque hendrerju ityno intortiolot consequat lectus elemen.</a></p>
-          <p>Ged ndimytui etorem ipsum dolor sitrolmj ametyre ansectetur adipet tymolotymonu wertunio ercinaloisyuing elit. Gyd nectro placerat turpis nec rutrumit est. Taecholi enas toro aliquet tristique ertou.</p>
-        </div>
-        <div class="maxheight">
-          <h2>Honeymoon Destination</h2>
-          <p><a href="#">Kolira ravida nibh ac neque hendrerityno intortiolot consequat ectus elemer.</a></p>
-          <p>Ftyd ndimytui etorem ipsum dolor sitrollo ametyre ansectetur ahopet tymolotymoni wertunio ercinaloisyuing elit. Kloyd nectro placerat turpis nec rutrumit est. Saecholit enas toro aliquet tristique ertok.</p>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-    <div class="grid_5">
-      <h2>Your Wishes</h2>
-      <blockquote> <img src="images/page1_img2.jpg" alt="" class="img_inner fleft">
-        <div class="quote extra_wrapper">
-          <div class="col1">Irma Grey
-            <time datetime="2045-01-01">14. 05.2045</time>
-          </div>
-          Kloporem ipsum dolor sit ametyol consectetur adipisyuing elit. Redul nec placerat turpis nec rutrumi est. </div>
-      </blockquote>
-      <blockquote> <img src="images/page1_img3.jpg" alt="" class="img_inner fleft">
-        <div class="quote extra_wrapper">
-          <div class="col1">Kevin Smith
-            <time datetime="2045-01-01">14. 05.2045</time>
-          </div>
-          Alpiloporem iyosum dolor sit ame etyol consectetur adipisyuing elit. Kedul nec placerat turpis necertyn. </div>
-      </blockquote>
-      <a href="#" class="btn b2">More</a> </div>
-    <div class="grid_6 prefix_1">
-      <h2>Our Love Story</h2>
-      <img src="images/page1_img4.jpg" alt="" class="img_inner fleft fl1">
-      <div class="extra_wrapper">
-        <p class="col1"><a href="#">Korem ipsum dolor sit amet consectur adipet isylotouing elit. Koed necytolokoj placerat turpis nec rutrumi. </a></p>
-        Teoro aliquet tristique tellus. Hrasterlot gravidalop nibh acer neque hendrerituli into consttlorequat lectusy. Sed condlio imetntum urna sit amet metus dignitr. </div>
-      <div class="clear"></div>
-      Nunc ante nisl porttitor eu venenatis non gravida a augue. Etiam malesuada dui act pharetra vestibulum est sem ultrices enim quis tristique mi neque laoreet seytoerm. Aliquam erat volutpat. Praesent consequat diam egestas neque tristiqaliquet. <br>
-      <a href="#" class="btn b1">More</a> </div>
-  </div>
-</div>
-<footer>
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
-      <p><a href="index.html" class="footer_logo"><img src="images/footer_logo.png"  alt=""></a> &copy; 2045 | <a href="#">Privacy Policy</a> | Design by: <a href="http://www.templatemonster.com">TemplateMonster.com</a></p>
-    </div>
-    <div class="clear"></div>
-  </div>
-</footer>
+
+<body>
+	<div id="splash-screen"
+		 class="splash-screen">
+		 <div class="upper-content">
+			<h2 class="fade-in-text">The Wedding Of</h2>
+			<h1 class="fade-in-text">Rizwan &amp; Syifa</h1>
+		</div>
+		<img src="images/splash_couple.png" alt="splash image">
+		<div class="splash-content">
+			<h3 class="fade-in-text">DEAR</h3>
+			<h2 class="fade-in-text"
+				id="guest_name"
+				style="font-size: 23px;">Nama Tamu</h2>
+			<button id="enter-button"
+					class="btn btn-primary fade-in-text">Buka Undangan</button>
+			<!-- <div class="moving-splash-left">
+				<div class="rose-left">
+					<img src="images/bunga_bride1.png"
+						 alt="Base splash group"
+						 class="moving-image-r">
+				</div>
+				<div class="wheat-left">
+					<img src="images/bunga_groom.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="wheat-left-down">
+					<img src="images/bunga_groom.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="mini-wheat">
+					<img src="images/bunga_bride.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="kuncup1">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup2">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup3">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup4">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+			</div>
+			<div class="moving-splash-right">
+				<div class="rose-right">
+					<img src="images/bunga_groom1.png"
+						 alt="Base splash group"
+						 class="moving-image-r">
+				</div>
+				<div class="wheat-right">
+					<img src="images/bunga_bride.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="kuncup1">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup2">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup3">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="daunan">
+					<img src="images/daunan.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<div class="fh5co-loader"></div>
+
+	<div id="main-content"
+		 class="main-content"
+		 style="display: none;">
+		<div id="page">
+			<!-- <nav class="fh5co-nav"
+				 role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-2">
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">Story</a></li>
+								<li class="has-dropdown">
+									<a href="services.html">Services</a>
+								</li>
+								<li class="has-dropdown">
+									<a href="gallery.html">Gallery</a>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav> -->
+			<header id="fh5co-header"
+					class="fh5co-cover"
+					role="banner"
+					style="background-image:url(images/img_bg_2.png);">
+				<div class="overlay">
+					<div class="moving-splash-left">
+						<div class="rose-left">
+							<img src="images/kupu-kupu.png"
+								 alt="Base splash group"
+								 class="moving-image-r">
+						</div>
+						<div class="pohon-left">
+							<img src="images/pohon.png"
+								 alt="Base splash group"
+								 class="moving-image-b">
+						</div>
+						<div class="semak-left">
+							<img src="images/semak.png"
+								 alt="Moving Rose 4"
+								 class="moving-image-c">
+						</div>
+					</div>
+					<div class="rumah">
+						<img src="images/rumah.png" alt="rumah">
+					</div>
+					<div class="moving-splash-right">
+						<div class="rose-right">
+							<img src="images/kupu-kupu.png"
+								 alt="Base splash group"
+								 class="moving-image-r">
+						</div>
+						<div class="pohon-right">
+							<img src="images/pohon.png"
+								 alt="Base splash group"
+								 class="moving-image-b">
+						</div>
+						<div class="semak-right">
+							<img src="images/semak.png"
+								 alt="Moving Rose 4"
+								 class="moving-image-c">
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="display-t">
+								<div class="display-tc animate-box"
+									 data-animate-effect="fadeIn">
+									<h2>The Wedding Of</h2>
+									<h1>Arizal &amp; Sabilla</h1>
+									<h2>25-01 2025</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div id="first-quote" class="fh5co-bg">
+				<div class="overlay">
+					<div class="fq-left">
+						<img src="images/semak.png"
+							 alt="fq left"
+							 class="moving-image-c">
+					</div>
+					<div class="fq-right">
+						<img src="images/semak.png"
+							 alt="fq right"
+							 class="moving-image-c">
+					</div>
+				</div>
+				<div class="container">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box" style="padding: 50px 30px;">
+						<!-- <h3 class="arab">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيمِ</h3> -->
+						 <p>Nikahkanlah orang-orang yang masih membujang 
+							 di antara kamu dan juga orang-orang yang layak 
+							 (menikah) dari hamba-hamba sahayamu, baik laki-laki 
+							 maupun perempuan. Jika mereka miskin, Allah akan memberi 
+							 kemampuan kepada mereka dengan karunia-Nya. Allah Maha Luas 
+							 (pemberian-Nya) lagi Maha Mengetahui</p>
+						<h3>QS. An Nur : 32</h3>
+					</div>
+					<img src="images/wayang.png" alt="wayang" style="
+						position: absolute;
+						top: 40%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						opacity: 0.2;
+						z-index: 0;
+						width: 200px;
+						height: 60%;
+						max-width: 600px;
+					">
+				</div>
+			</div>
+
+			<div id="fh5co-couple">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<!-- <h3 class="arab">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيمِ</h3> -->
+							<h3>Save The Date</h3>
+							<p>Kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami :</p>
+						</div>
+					</div>
+					<div class="couple-wrap">
+						<!-- <div class="moving-rose-groom animate-box">
+							<img src="images/bungakiri.png"
+								 alt="Moving Rose 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-rose-bride animate-box">
+							<img src="images/bungakanan.png"
+								 alt="Moving Rose 2"
+								 class="moving-image-b">
+						</div> -->
+						<div class="couple-half br animate-box"
+							 data-animate-effect="fadeInRight">
+							<div class="bride">
+								<div class="moving-image-bride">
+									<img src="images/bunga_putih.png"
+										 alt="Moving Image 2"
+										 class="moving-image-r">
+								</div>
+								<div class="moving-bundle-bride">
+									<div class="bundle-1">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-r">
+									</div>
+									<div class="bundle-2">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-c">
+									</div>
+									<div class="bundle-3">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-r">
+									</div>
+								</div>
+								<img src="images/bride.png"
+									 alt="groom"
+									 class="img-responsive brides">
+							</div>
+							<div class="desc-bride">
+								<p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+								<h3>Sabilla Putri</h3>
+								<p>Putri kedua Bapak Budi Gunawan &amp; Ibu Siti Azizah</p>
+							</div>
+						</div>
+						<h3 class="amp">&amp;</h3>
+						<div class="couple-half gr animate-box"
+							 data-animate-effect="fadeInLeft">
+							<div class="groom">
+								<div class="moving-image-groom">
+									<img src="images/bunga_putih.png"
+										 alt="Moving Image 1"
+										 class="moving-image-r">
+								</div>
+								<div class="moving-bundle-groom">
+									<div class="bundle-1">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-r">
+									</div>
+									<div class="bundle-2">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-c">
+									</div>
+									<div class="bundle-3">
+										<img src="images/bunga_putih.png"
+											 alt="Moving Image 2"
+											 class="moving-image-r">
+									</div>
+								</div>
+								<img src="images/groom.png"
+									 alt="groom"
+									 class="img-responsive grooms">
+							</div>
+							<div class="desc-groom">
+								<p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+								<h3>Arizal Nurhikam</h3>
+								<p>Putra pertama Bapak Taufik &amp; Ibu Surtini</p>
+							</div>
+						</div>
+						<p class="heart text-center"><i class="icon-heart2"></i></p>
+						
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-couple-story">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Perjalanan Cinta Kami</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-md-offset-0">
+							<ul class="timeline">
+								<div class="moving-rose-story-right">
+									<img src="images/semak.png"
+										 alt="Moving Rose 3"
+										 class="moving-image-c">
+								</div>
+								<div class="moving-rose-story-left">
+									<img src="images/semak.png"
+										 alt="Moving Rose 4"
+										 class="moving-image-c">
+								</div>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Awal Pertemuan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Kami pertama kali bertemu di tanggal 5 Agustus 2022. Saat itu kami
+												bekerja di tempat yang sama</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Menjalin Hubungan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Setelah merasa mengenal satu sama lain, kami memutuskan untuk menjalin
+												hubungan di tanggal 11 Maret 2023.</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Lamaran</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Kami mantap membawa hubungan kami ke jenjang yang lebih serius dengan
+												mempertemukan kedua orangtua dan keluarga besar dalam acara silahturahmi
+												dan lamaran yang dilangsungkan pada 21 Oktober 2024.</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Resepsi Pernikahan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Atas izin Allah SWT, restu dan ridho dari kedua orangtua. Serta dukungan
+												dari keluarga besar dan orang-orang terkasih. InsyaAllah kami akan
+												melangsungkan pernikahan kami pada 17 Mei 2025. Serta memulai kisah
+												baru kami dalam suatu ikatan suci pernikahan. Yang semoga senantiasa
+												diberkahi oleh Allah SWT.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div id="particles-js"> -->
+			<div id="fh5co-event"
+			class="fh5co-bg"
+			style="background-image:url(images/image-bg-ev.png);">
+				 <div class="overlay">
+					<!-- <div class="ev-middle">
+						<img src="images/bungatengah.png"
+						alt="ev middle"
+						class="moving-image-c">
+					</div> -->
+				 </div>
+				<div class="container">
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="hr-with-text">
+											<!-- <hr> -->
+											<span>Save the date</span>
+										</div>
+										<!-- <h4>Yang InsyaAllah akan dilaksanakan pada :</h4> -->
+										<div class="simply-countdown simply-countdown-one"></div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<h3>Akad Nikah</h3>
+											<div class="event-col">
+												<span>Sabtu, 17 Mei 2025</span>
+											</div>
+											<div class="event-col">
+												<span>Pukul 09.00 WIB</span>
+											</div>
+											<div class="event-inner">
+												<span>Alamat : Jl. Asia Afrika, Kb. Pisang, Kec. Regol, Kota Bandung, Jawa
+													Barat</span>
+											</div>
+											<div class="event-inner">
+												<a href="https://www.google.co.id/maps/dir//Alun-alun+Kota+Bandung,+Jl.+Asia+Afrika,+Kb.+Pisang,+Kec.+Regol,+Kota+Bandung,+Jawa+Barat/@-6.9218242,107.6044874,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e89dbe0ec231:0x177412aac90cd065!2m2!1d107.6070623!2d-6.9218295?hl=id&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+												   target="_blank"
+												   class="mt-3 mb-3 py-2 px-4">
+													<i class="fa-solid fa-location-dot"></i>Lihat Lokasi
+												</a>
+											</div>
+											<!-- <div class="moving-rose-story-right">
+												<img src="images/bunga_groom1.png"
+													 alt="Moving Rose 3"
+													 class="moving-image-b">
+											</div>
+											<div class="moving-leaf-story-left">
+												<img src="images/daun_kiri.png"
+													 alt="Moving leaf temporary">
+											</div> -->
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<h3>Resepsi</h3>
+											<div class="event-col">
+												<span>Sabtu, 17 Mei 2025</span>
+											</div>
+											<div class="event-col">
+												<span>Pukul 10:00 WIB</span>
+											</div>
+											<div class="event-inner">
+												<span>Alamat : Jl. Asia Afrika, Kb. Pisang, Kec. Regol, Kota Bandung, Jawa
+													Barat</span>
+											</div>
+											<div class="event-inner">
+												<a href="https://www.google.co.id/maps/dir//Alun-alun+Kota+Bandung,+Jl.+Asia+Afrika,+Kb.+Pisang,+Kec.+Regol,+Kota+Bandung,+Jawa+Barat/@-6.9218242,107.6044874,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e89dbe0ec231:0x177412aac90cd065!2m2!1d107.6070623!2d-6.9218295?hl=id&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+												   target="_blank"
+												   class="mt-3 mb-3 py-2 px-4">
+													<i class="fa-solid fa-location-dot"></i>Lihat Lokasi
+												</a>
+											</div>
+											<!-- <div class="moving-rose-story-left">
+												<img src="images/bunga_bride1.png"
+													 alt="Moving Rose 3"
+													 class="moving-image-b">
+											</div>
+											<div class="moving-leaf-story-right">
+												<img src="images/daun_kanan.png"
+													 alt="Moving leaf temporary">
+											</div> -->
+										</div>
+									</div>
+									<!-- <div class="col-md-12 col-sm-12 text-center">
+										<div class="animate-box">
+											<div class="event-inner">
+											</div>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.940800052965!2d104.72518737410302!3d-5.425965254161215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4723a1f50704ef%3A0x24af59e8150094d9!2sGedung%20Serba%20Guna%20(GSG)%20Gisting%20Bawah!5e0!3m2!1sid!2sid!4v1729582501757!5m2!1sid!2sid"
+													width="100%"
+													height="300"
+													style="border:0; border-radius: 18px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3), 0px -8px 15px rgba(0, 0, 0, 0.3);"
+													allowfullscreen=""
+													loading="lazy"
+													referrerpolicy="no-referrer-when-downgrade"></iframe>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.738566859013!2d107.60448737412412!3d-6.92182416774753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e89dbe0ec231%3A0x177412aac90cd065!2sAlun-alun%20Kota%20Bandung!5e0!3m2!1sid!2sid!4v1730281157624!5m2!1sid!2sid"
+													width="100%"
+													height="300"
+													style="border:0; border-radius: 18px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3), 0px -8px 15px rgba(0, 0, 0, 0.3);"
+													allowfullscreen=""
+													loading="lazy"
+													referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+
+			<div id="fh5co-gallery">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Galeri <span>Foto</span></h2>
+							<!-- <p>Tidak ada yang spesial dalam cerita kami. Tapi kami sangat spesial untuk satu sama lain.
+								Dan Kami bersyukur, dipertemukan Allah diwaktu terbaik, Kini kami menanti hari istimewa
+								kami.</p> -->
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-gallery-list">
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-1.jpg); ">
+									<a href="images/gallery-1.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/end.jpg); ">
+									<a href="images/end.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-3.jpg); ">
+									<a href="images/gallery-3.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-4.jpg); ">
+									<a href="images/gallery-4.jpg">
+									</a>
+								</li>
+
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-5.jpg); ">
+									<a href="images/gallery-5.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-6.jpg); ">
+									<a href="images/gallery-6.jpg">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-gift"
+				 class="fh5co-bg"
+				 style="background-color: #F9F7F1;">
+				<div class="overlay">
+				</div>
+					<div class="gift-left">
+						<img src="images/semak.png"
+							 alt="gift left"
+							 class="moving-image-c">
+					</div>
+					<div class="gift-right">
+						<img src="images/semak.png"
+							 alt="gift right"
+							 class="moving-image-c">
+					</div>
+					<div class="gift-right2">
+						<img src="images/semak.png"
+							 alt="gift right"
+							 class="moving-image-c">
+					</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Amplop Digital</h2>
+							<p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.<br>
+								Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara
+								cashless.</p>
+								<button id="toggleGiftButton" class="mt-3 mb-3 py-2 px-4 button-gift">
+									<i class="fa-solid fa-gift"></i>Kirim Hadiah
+								</button>
+						</div>
+					</div>
+					<div id="gift-info" style="display: none;">
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<!-- <div class="event-col"> -->
+												<img src="images/bca.png">
+												<h3>Atas Nama</h3>
+												<span>Arizal Nurhikam</span>
+												<span>12345678912</span>
+											<!-- </div> -->
+											<!-- <div class="event-col"> -->
+												<!-- <img src="images/qr.png"> -->
+											<!-- </div> -->
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<!-- <div class="event-col"> -->
+												<img src="images/dana.png">
+												<h3>Atas Nama</h3>
+												<span>Arizal Nurhikam</span>
+												<span>12345678912</span>
+											<!-- </div> -->
+											<!-- <div class="event-col"> -->
+												<!-- <img src="images/qr.png"> -->
+											<!-- </div> -->
+										</div>
+									</div>
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="event-wrap animate-box">
+											<div class="event-col">
+												<i class="fa-solid fa-gift"></i>
+												<h2 style="text-align: center;">Kirim Hadiah</h2>
+												<p>Nama Penerima : Arizal Nurhikam</p>
+												<p>No. HP : +62 812-3456-7890</p>
+												<p>Jl Dago Pakar</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <svg width="100%" height="100px" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+				<path d="M0,0 Q50,60 100,0 L100,30 L0,30 Z" fill="#CC8F53" />
+			  </svg>
+			<div id="fh5co-quote"
+				 class="fh5co-bg">
+				<div class="overlay">
+					<div class="quote-left">
+						<img src="images/bungakiri.png"
+							 alt="quotel"
+							 class="moving-image-c">
+					</div>
+				</div>
+				<div class="container" style="padding-bottom: 30px;">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-top: 0;">
+							<h2>Save The Date</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="text-center p-4 animate-box">
+											<h4 class="font-weight-normal mb-1 pb-3">
+												"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+											</h4>
+											<h4>- QS. Ar Rum 21 -</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg width="100%" height="100px" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="margin-top: -1px;">
+				<path d="M0,30 Q50,-30 100,30 L100,0 L0,0 Z" fill="#CC8F53" />
+			  </svg> -->
+
+			<div id="fh5co-started"
+				 class="fh5co-bg">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Ucapkan Sesuatu</h2>
+						</div>
+					</div>
+					<div class="row animate-box">
+						<!-- <div class="moving-image-com">
+							<img src="images/bungakiric.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-image-com2">
+							<img src="images/bungakananc.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-image-com3">
+							<img src="images/bungakananc.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div> -->
+						<div class="comment-section col-md-10 col-md-offset-1">
+							<form id="comment-form"
+								  class="form-inline">
+								<div class="col-md-3 col-sm-6">
+									<div class="form-group">
+										<label for="name"
+											   class="sr-only">Nama</label>
+										<input type="text"
+											   class="form-control"
+											   id="name"
+											   placeholder="Name"
+											   required>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-12">
+									<div class="form-group">
+										<label for="message"
+											   class="sr-only">Pesan</label>
+										<input type="text"
+											   class="form-control"
+											   id="message"
+											   placeholder="Message"
+											   row="3"
+											   required>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="form-group">
+										<label for="attendance"
+											   class="sr-only">Kehadiran</label>
+										<select id="attendance"
+												class="form-control"
+												required>
+											<option value="">Konfirmasi Kehadiran</option>
+											<option value="attending">Hadir</option>
+											<option value="not-attending">Tidak Hadir</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-12">
+									<button type="button"
+											class="btn btn-default btn-block"
+											onclick="submitComment()">Kirim</button>
+								</div>
+							</form>
+							<div class="col-md-12 col-sm-12">
+								<div class="comment-list"
+									 id="comment-list"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div id="particles-js2"> -->
+			<div id="fh5co-end"
+				 class="fh5co-bg"
+				 style="background-image:url(images/img_bg_2.png);">
+				<div class="overlay">
+					<!-- <div class="end-art">
+						<div class="end-left">
+							<div class="moving-rose-end-left">
+								<img src="images/bunga_groom1.png"
+									 alt="Moving Rose 3"
+									 class="moving-image-b">
+							</div>
+							<div class="wheat-left">
+								<img src="images/bunga_bride.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="daunan">
+								<img src="images/daunan.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-right">
+							<div class="moving-rose-end-right">
+								<img src="images/bunga_bride1.png"
+									 alt="Moving Rose 3"
+									 class="moving-image-b">
+							</div>
+							<div class="wheat1">
+								<img src="images/bunga_groom.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="wheat2">
+								<img src="images/bunga_bride.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="wheat3">
+								<img src="images/bunga_groom.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-left bottom-right">
+							<div class="moving-rose-end-left">
+								<img src="images/bunga_groom1.png"
+									alt="Moving Rose 3"
+									class="moving-image-b">
+							</div>
+							<div class="wheat-left">
+								<img src="images/bunga_bride.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="daunan">
+								<img src="images/daunan.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-right bottom-left">
+							<div class="moving-rose-end-right">
+								<img src="images/bunga_bride1.png"
+								alt="Moving Rose 3"
+								class="moving-image-b">
+							</div>
+							<div class="wheat1">
+								<img src="images/bunga_groom.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="wheat2">
+								<img src="images/bunga_bride.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="wheat3">
+								<img src="images/bunga_groom.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+					</div>-->
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<div class="end-image  animate-box">
+								<img src="images/end.jpg"
+									 alt="">
+							</div>
+							<div class="animate-box">
+								<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i
+									berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami
+									mengucapkan terima kasih.
+									Wassalamu'alaikum Wr. Wb.</p>
+								<h2>Arizal &amp; Sabilla</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+
+			<footer id="fh5co-footer"
+					role="contentinfo">
+				<div class="container">
+
+					<div class="row copyright">
+						<div class="col-md-12 text-center animate-box">
+							<h2>Made with <strong>love</strong> by <strong>Zone Miracle</strong></h2>
+							<p>Cari tahu lebih lanjut tentang kami melalui :</p>
+							<ul class="fh5co-social-icons">
+								<li><a href="https://www.instagram.com/zonemiracle_?igsh=MXFqcmc1MjlkenNyZw=="><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://wa.me/6281563939538"><i class="fa fa-whatsapp"></i></a></li>
+							</ul>
+							<p>
+								<small class="block">Alamat :<br>
+									Jl. Terusan Sekolah No.1-2, Cicaheum, Kec. Kiaracondong, Kota Bandung, Jawa Barat
+									40282 </small>
+							</p>
+							<p>
+								<!-- <ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul> -->
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+		<div class="music-toggle">
+			<button id="toggle-music">
+				<i class="icon-play"
+				   id="play-icon"
+				   style="display: none;"></i>
+				<i class="icon-pause"
+				   id="pause-icon"
+				   style="display: none;"></i>
+			</button>
+		</div>
+		<div class="menu-toggle">
+			<div class="event-toggle">
+				<a href="#fh5co-header"><i class="fa-solid fa-house"></i></a>
+				<a href="#fh5co-event"><i class="fa-solid fa-calendar-days"></i></a>
+				<a href="#fh5co-gallery"><i class="fa-solid fa-images"></i></a>
+				<a href="#fh5co-couple"><i class="fa-solid fa-heart"></i></a>
+				<a href="#fh5co-started"><i class="fa-solid fa-comments"></i></a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="gototop js-top">
+		<a href="#"
+		   class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div> -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+
+
+	<script>
+
+		$(document).ready(function () {
+			const urlParams = new URLSearchParams(window.location.search);
+			const guestName = urlParams.get('halo') || 'Ditempat';
+			document.getElementById('guest_name').textContent = guestName;
+		});
+
+		const enterButton = document.getElementById('enter-button');
+		const mainContent = document.getElementById('main-content');
+		const backgroundAudio = new Audio('song.mp3');
+		const toggleMusicButton = document.getElementById('toggle-music');
+		const playIcon = document.getElementById('play-icon');
+		const pauseIcon = document.getElementById('pause-icon');
+
+		enterButton.addEventListener('click', function () {
+
+			document.getElementById('splash-screen').style.display = 'none';
+			document.getElementById('main-content').style.display = 'block';
+
+			backgroundAudio.play();
+			document.getElementById('play-icon').style.display = 'none';
+			document.getElementById('pause-icon').style.display = 'inline';
+		});
+
+		// Event listener for the toggle music button
+		toggleMusicButton.addEventListener('click', function () {
+			if (backgroundAudio.paused) {
+				backgroundAudio.play();
+				document.getElementById('play-icon').style.display = 'none';
+				document.getElementById('pause-icon').style.display = 'inline';
+			} else {
+				backgroundAudio.pause();
+				document.getElementById('play-icon').style.display = 'inline';
+				document.getElementById('pause-icon').style.display = 'none';
+			}
+		});
+		var targetDate = new Date('2025-05-17T09:00:00');
+
+		simplyCountdown('.simply-countdown-one', {
+			year: targetDate.getFullYear(),
+			month: targetDate.getMonth() + 1,
+			day: targetDate.getDate(),
+			hours: targetDate.getHours(),
+			minutes: targetDate.getMinutes(),
+			enableUtc: false,
+		});
+
+	</script>
+	<script>
+		enterButton.addEventListener('click', function () {
+		particlesJS("particles-js", {
+		  "particles": {
+			"number": {
+			  "value": 80,
+			  "density": {
+				"enable": true,
+				"value_area": 800 
+			  }
+			},
+			"color": {
+			  "value": "#3D3D3D"
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#3D3D3D"
+			  },
+			  "polygon": {
+				"nb_sides": 5
+			  }
+			},
+			"opacity": {
+			  "value": 0.5,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 5,
+			  "random": true,
+			  "anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": true,
+			  "distance": 150,
+			  "color": "#3D3D3D",
+			  "opacity": 0.4,
+			  "width": 1
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 6,
+			  "direction": "none",
+			  "random": false,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+		  },
+		  "interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "repulse"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 400,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			  },
+			  "repulse": {
+				"distance": 200,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+		  },
+		  "retina_detect": true
+		});
+
+		particlesJS("particles-js2", {
+		  "particles": {
+			"number": {
+			  "value": 80,
+			  "density": {
+				"enable": true,
+				"value_area": 800 
+			  }
+			},
+			"color": {
+			  "value": "#3D3D3D"
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#3D3D3D"
+			  },
+			  "polygon": {
+				"nb_sides": 5
+			  }
+			},
+			"opacity": {
+			  "value": 0.5,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 5,
+			  "random": true,
+			  "anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": true,
+			  "distance": 150,
+			  "color": "#3D3D3D",
+			  "opacity": 0.4,
+			  "width": 1
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 6,
+			  "direction": "none",
+			  "random": false,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+		  },
+		  "interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "repulse"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 400,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			  },
+			  "repulse": {
+				"distance": 200,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+		  },
+		  "retina_detect": true
+		});
+		
+	});
+	  </script>
+	  
+	<script>
+		function submitComment() {
+			var name = $("#name").val();
+			var attendance = $("#attendance").val();
+			var message = $("#message").val();
+			var web_param = "WEB010";
+			if (name === "" || attendance === "" || message === "") {
+				alert("Semua field harus diisi!");
+				return;
+			}
+			$.ajax({
+				url: "http://localhost/api_comment_zonemiracle/index.php/comment",
+				type: "POST",
+				data: {
+					web_param: web_param,
+					name: name,
+					attendance: attendance,
+					message: message
+				},
+				success: function (response) {
+					$("#comment-form")[0].reset();
+					fetchComments();
+				},
+				error: function (xhr, status, error) {
+					console.error("Error mengirim komentar:", error);
+					alert("Gagal mengirim komentar.");
+				}
+			});
+		}
+		function fetchComments() {
+			var web_param = "WEB010";
+			$.ajax({
+				url: "http://localhost/api_comment_zonemiracle/index.php/comment",
+				type: "GET",
+				data: {
+					web_param: web_param
+				},
+				success: function (response) {
+					var commentList = $("#comment-list");
+					commentList.empty();
+					response.forEach(function (comment) {
+						commentList.append(
+							`<div class="comment-item">
+					<strong>${comment.name}</strong> ${comment.attendance === 'attending' ? '<i class="fa-solid fa-square-check"></i>' : '<i class="fa-solid fa-square-xmark"></i>'}
+					<p>${comment.message}</p>
+				</div>`
+						);
+					});
+				},
+				error: function (xhr, status, error) {
+					console.error("Error mengambil komentar:", error);
+				}
+			});
+		}
+		$(document).ready(function () {
+			fetchComments();
+		});
+
+	</script>
 </body>
+
 </html>
