@@ -58,7 +58,7 @@ body {
 }
 
 a {
-  color: #CC8F53;
+  color: #735845;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -918,6 +918,7 @@ figure {
   padding: 0;
   margin: 0;
   width: 100%;
+  overflow: hidden;
 }
 #fh5co-gallery-list li {
   display: block;
@@ -953,7 +954,8 @@ figure {
   overflow: hidden;
 }
 #fh5co-gallery-list li:hover {
-  transform: scale(1.1);
+  background-position: 80% center;
+  background-size: 110%;
 }
 /* #fh5co-gallery-list li a:before {
   position: absolute;
@@ -3574,7 +3576,7 @@ form label {
 
 .event-toggle {
   border:  #E8C49D 2px solid;
-  background: #CC8F53;
+  background: #735845;
   margin-bottom: 30px;
   padding: 10px;
   width: 100%;
